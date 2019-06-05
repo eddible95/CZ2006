@@ -1,0 +1,322 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+.col-md-4{
+    padding:0;
+
+}
+.col-md-8{
+    padding:0;
+}
+
+#resultsContainer{
+    background-color: rgb(172,192,254);
+    width:100%;
+    height:100%;
+}
+
+.logo{
+    height: 88px;
+}
+
+.navbar-brand{
+    padding:5px 5px;
+}
+
+.navbar-default{
+    margin-bottom: 0;
+    font-weight: 700;
+    background-color: #1c1c8d;
+    border: none;
+    border-radius: 0;
+    height: 10%;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #f0edee;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ee327f;
+    margin-top: 31px;
+}
+
+
+.headerBtn{
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: #eaeeee;
+    height: 50%;
+    font-size: 23px;
+    width: 150px;
+    margin-top: 27px;
+}
+/* navBar search */
+.accSearchArea{
+    width: 45%;
+    height: 80%;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+.selectDiv{
+    width: 20%;
+    display: inline-block;
+    height: 70%;
+    margin-top:0;
+}
+
+.searchBar{
+    height: 100%;
+    margin-left: 20px;
+    border: 1px solid transparent;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+    color: #151414;
+}
+.searchBarBtn{
+    margin-left:0;
+    background-color: transparent;
+}
+
+.accSearchBar{
+    width: 70%;
+    height: 70%;
+    display:inline-block;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-right:1%;
+    color: #271e1e;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 2%;
+
+}
+
+
+.accSearchBar::-webkit-input-placeholder {
+    font-family: 'Arvo', serif;
+    font-size: 23px;
+    color: #656565;
+
+}
+
+.navbarSearch{
+    width:50px;
+    height:50px;
+}
+
+/* select dropdown menu */
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+    font-size:20px;
+}
+
+.caret{
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #d3d3d3 ;
+}
+
+.dropdown-menu>li>a{
+    font-size:20px;
+    font-family:  'Arvo', serif;
+    font-weight: 400;
+}
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover,.btn-group>.btn:first-child{
+    background-color:white;
+    height: 100%;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    color: #656565;
+
+}
+
+.bootstrap-select.btn-group .dropdown-menu li a{
+    padding-left:10px;
+    height:50px;
+    padding-top:8px;
+}
+
+/* searchContent */
+.searchForm{
+    color:black;
+}
+
+.searchContent{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    color: #ffffff;
+    padding-top: 30px;
+    height:100%;
+}
+.submitBtn{
+    width:45px;
+    height:40px;
+    background-color:white;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    margin-left: -50px;
+}
+.searchBarBtn{
+    margin-left:0;
+    background-color: transparent;
+}
+
+.searchLogo{
+    width:30px;
+    height: 30px;
+}
+
+.searchInput{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.searchBar::-webkit-input-placeholder {
+    color: #666666;
+    font-size: 20px;
+}
+
+#signupBtn{
+    background:#ee327f;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#signupBtn:hover{
+    background: #f14e87;
+    color: #1c1c8d;
+}
+
+#loginBtn{
+    background:#1c1c8d;
+    border: 1px solid #ee327f;
+
+
+}
+
+#loginBtn:hover{
+    background: #f14e87;
+    color: #1c1c8d;
+}
+
+.defaultResultsWindow{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Arvo', serif;
+    height:100%;
+    background: #ffffff;
+
+}
+.resultsBorder{
+    width:92%;
+    margin: 0 auto;
+}
+
+/* display search configuration */
+#displayInput{
+    float: left;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+#userInput{
+    font-weight: 700;
+}
+
+.checkboxContainer{
+    margin-top: 2%;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.checkboxLabel{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 40%;
+    display: inline-block;
+}
+
+.displayCheckbox{
+    float:right;
+    display: inline-block;
+    background-color: white;
+}
+input[type=checkbox]{
+    margin-top: 10px;
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+}
+
+/* results content */
+.resultsContent{
+    height: 90%;
+    float: left;
+    width:100%;
+    margin-top: 2%;
+    overflow: auto; 
+}
+
+.eateryImg{
+    margin: 40px 0px 40px 0px;
+    width: 80%;
+    height: 200px; 
+}
+
+.eateryDesc{
+    margin: 50px 10px 40px 0px;
+    color: black;
+    text-align: left;
+}
+
+.eateryName{
+   font-weight:700;
+   font-size:  30px;
+}
+
+.eateryLoc, .eateryPrice{
+    font-size: 22px;
+}
+
+.eateryOpen{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #e45458;
+}
+
+.eateryRatingBase{
+    background:#3ca63c;
+    border-radius: 50%;
+    width: 12%;
+    height: 8%;
+    float:right;
+}
+
+.eateryRating{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 28%;
+    font-size: 25px;
+}
+
+.eateryRec{
+    display: flex;
+    flex-wrap: wrap;
+}

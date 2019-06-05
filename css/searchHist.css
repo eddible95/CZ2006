@@ -1,0 +1,76 @@
+#resultsContainer{
+    background-color: rgb(172,192,254);
+    width:100%;
+    height:100%
+}
+.searchHistWindow{
+    width: 50%;
+    margin: 0 auto;
+    height:100%;
+    background:#ffffff;
+}
+
+#displayHistText{
+    padding-left: 5%;
+}
+
+.searchHistConfiguration{
+    padding-top: 3%;
+}
+
+.displayHistDiv{
+    font-size: 25px;
+    font-weight:700;
+}
+
+#cancelImg{
+    height: 25px;
+}
+
+#cancelSpan{
+    margin-right: 1%;  
+}
+
+#clearHistDiv{
+    display: inline-block;
+    width: 70%;
+    float: right;
+}
+
+a#clearHistDiv{
+    color: black; 
+}
+a#clearHistDiv:hover{
+    color: #656565;
+}
+
+
+.displayHistContent{
+    margin-top: 10%;
+}
+
+.searchHistEntry{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding-left: 0%;
+}
+
+hr.style {
+    height: 5px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #D4D4D4 inset;
+    width: 100%;
+}
+
+.noSearchHistMsg{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 25px;
+    color: red;
+    margin-left: 5%;
+    padding-left: 0%;
+}

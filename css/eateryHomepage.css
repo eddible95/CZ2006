@@ -1,0 +1,101 @@
+/* resultsContent */
+.resultsContent{
+    height: 93%;
+}
+
+
+/* eatery openinghours */
+
+#openingHours{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 1%;
+    width:100%;
+    border-style:groove;
+}
+
+#openingHoursHeading{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* review content */
+
+.eateryReviewContent{
+    margin-top: 3%;
+}
+
+#reviewNum{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 4%;
+}
+
+.eateryDesc{
+    margin: 60px 10px 10px 0px;
+}
+
+hr.style {
+    height: 5px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #D4D4D4 inset;
+}
+
+
+.reviewEntry{
+    font-size: 20px;
+}
+
+.author{
+    padding-left: 0;
+    font-style: italic;
+}
+
+.date{
+    padding-left: 30%;
+    
+}
+
+/* reviewForm */
+#reviewForm{
+    font-size: 20px;
+    padding-left: 20%;
+}
+
+
+#formLegend{
+    padding-left: 20%;
+    padding-top: 2%;
+}
+
+#reviewMsg{
+    color: red;
+    font-size: 20px;
+}
+
+label.formLabels{
+    padding-right: 3%;
+}
+
+.formSubmitBtn{
+    font-size: 20px;
+}
+
+input[type=radio] {
+    border: 0px;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+    margin-left: 2%;
+}
+
+
+#reviewUpdate{
+    padding-top: 2%;
+    width: 300px;
+    margin:0 auto;
+    font-size: 20px;
+    color: red;
+    
+}

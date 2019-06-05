@@ -1,0 +1,165 @@
+a{
+    color:black;
+}
+
+#noResults{
+    font-size: 25px;
+    color: red;
+}
+
+
+/* when map view is selected */
+#map {
+    height: 100%;
+    display: none;
+    float: right;
+}
+
+.infoWindowContent{
+    font-size: 20px;
+}
+
+.eateryMarker{
+    color: #1c1c8d;
+}
+
+.hidden{
+    display:none;
+}
+
+.mapMarker{
+    margin-top: 2%;
+    font-size: 22px;
+    font-weight: 700;
+    color: green;
+}
+
+#showCarparkCB{
+    float: right;
+    display: none;
+}
+
+/* Advanced Search */
+.advSearch{
+/*    background-color: rgba(28,28,141, 0.8);*/
+    background-color: rgba(70,66,80, 0.8);
+    height: 10%;
+}
+
+.advSearchText{
+    font-size: 20px;
+    color: #5bd8de;
+    float: left;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.advSearchOut{
+    font-size: 18px;
+    color: #5bd8de;
+    font-weight:700;
+    margin-top: 0.5%;
+}
+
+/* Advanced Search Slider */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.advSearchSlider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5bd8de;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.advSearchSlider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .advSearchSlider {
+  background-color: #2196F3;
+}
+
+input:focus + .advSearchSlider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .advSearchSlider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.advSearchSlider.round {
+  border-radius: 34px;
+}
+
+.advSearchSlider.round:before {
+  border-radius: 50%;
+}
+
+
+.slideContainer {
+    margin-top: 1%;
+}
+
+.distSlider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #e3e3e3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.distSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.distSlider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.setDistInputWindow{
+    margin-top: 4%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.setDistBtn{
+    font-size: 18px;
+}

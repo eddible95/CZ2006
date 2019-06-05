@@ -1,0 +1,31 @@
+li.active a.accSelection, li.active a.accSelection:hover{
+    background: #fafafa;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+ .dropdown-menu > li > a.accSelection:hover, .dropdown-menu > li > a.accSelection:focus {
+     background-color: #f0f0f0;
+ }
+ 
+ .navbar-default .navbar-nav>li>a.username{
+     color: white;
+ }
+ 
+ li.active a.accSelection.logout{
+     font-weight: 700;
+ }
+ 
+ .dropdown-menu>li>a.accSelection{
+     font-size: 20px;
+ }
+ .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fafafa;
+    background-color: #1c1c8d; 
+}
+
+a.accSelection.logout{
+    font-weight:700
+}

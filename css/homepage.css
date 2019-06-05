@@ -1,0 +1,305 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+.col-md-4{
+    padding:0;
+
+}
+.col-md-8{
+    padding:0;
+}
+
+/* tabs */
+.tabLinks a {
+    padding:0.563em 0.938em;
+    display:inline-block;
+    background: #1c5ce7;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight: 700;
+    color:#eaeeee;
+    width: 100%;
+    transition:all linear 0.15s;
+    letter-spacing: 1px;
+}
+
+.tabLinks a:hover {
+    background:#1c26d9;
+    text-decoration:none; /*remove underline*/
+}
+
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
+  
+}
+
+.tabLinks li {
+    list-style:none;
+    padding:0;
+}
+
+
+.logo{
+    height: 88px;
+}
+
+.navbar-brand{
+    padding:5px 5px;
+}
+
+.navbar-default{
+    margin-bottom: 0;
+    font-weight: 700;
+    background-color: #1c1c8d;
+    border: none;
+    border-radius: 0;
+    height: 10%;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #f0edee;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ee327f;
+    margin-top: 31px;
+}
+
+
+.headerBtn{
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: #eaeeee;
+    height: 50%;
+    font-size: 23px;
+    width: 150px;
+    margin-top: 27px;
+}
+
+#signupBtn{
+    background:#ee327f;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#signupBtn:hover{
+    background: #f14e87;
+    color: #1c1c8d;
+}
+
+#loginBtn{
+    background:#1c1c8d;
+    border: 1px solid #ee327f;
+}
+
+#loginBtn:hover{
+    background: #f14e87;
+    color: #1c1c8d;
+}
+
+/* searchContainer */
+#headerContainer{
+    height: 380px;
+    background-image: url('/images/searchBarBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    position: relative;
+}
+
+.tagline{
+    font-size:20px;
+    margin-top:5px;
+}
+
+.searchArea{
+    height: 80%;
+    display: inline-block;
+    width:100%;
+    font-family: 'Arvo', serif;
+    margin-top:20px;
+}
+#searchLayer{
+    background: rgba(160,162,164,0.1);
+    height:100%;
+}
+
+/* searchContent */
+.searchForm{
+    color:black;
+}
+
+.searchContent{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    color: #ffffff;
+    padding-top: 30px;
+    height:100%;
+}
+.submitBtn{
+    width:45px;
+    height:40px;
+    background-color:white;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    margin-left: -50px;
+}
+
+.searchLogo{
+    width:30px;
+    height: 30px;
+}
+
+.searchInput{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.searchBar{
+    border: 1px solid transparent;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+    color: #151414;
+}
+
+.searchBar::-webkit-input-placeholder {
+    color: #666666;
+    font-size: 20px;
+}
+
+/* searchTabs */
+
+li.active a, li.active a:hover {
+    background: #1c1c8d;
+    color:#eaeeee;
+}
+
+ul#searchTabLinks.tabLinks{
+    margin-left:-37px;
+}
+
+
+/* trending container */
+#trendingContainer{
+    width: 100%;  
+    font-family: 'Arvo', serif;
+/*    background: url('/images/trendingBackground.png');*/
+    background-color: rgb(172,192,254);
+    height:100%;
+}
+
+#trendingContent{
+    width: 40%;
+    overflow: hidden; /* for overriding format of float in tabs */  
+    margin: 0 auto;
+
+}
+
+#trendingHeader{
+    padding-top: 30px;
+}
+
+#trendingHeader h2{
+    font-size:38px;
+    color:#ee327f;
+    font-weight:700;
+ 
+}
+
+#trendTabs.tabs{
+    text-align: center;
+}
+
+#trendTabLinks.tabLinks{
+    overflow:hidden;
+    padding-left:0;
+    margin-bottom:0;
+    letter-spacing: 1.5px;
+}
+
+#trendTabLinks.tabLinks a{
+    border: solid 0.5px white;
+}
+
+#tPriceTab{
+    width: 100%;
+}
+
+.eateryLocTab{
+    overflow: auto; 
+    width: 100%; 
+    height: 100%;
+}
+
+/* trending table content */
+.tableTabContent{
+    height: 80%;
+    background-color: #1c1c8d;
+    overflow:auto;
+}
+
+.eateryImg{
+    padding: 1px;
+    margin: 40px 30px 40px 30px;
+    width: 80%;
+    height: 200px; 
+}
+
+.eateryDesc{
+    margin: 50px 10px 40px 0px;
+    color: white;
+    text-align: left;
+}
+
+.eateryName{
+   font-weight:700;
+   font-size:  30px;
+}
+
+.eateryLoc, .eateryPrice{
+    font-size: 22px;
+}
+
+.eateryOpen{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #e45458;
+}
+
+.eateryRatingBase{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 12%;
+    height: 8%;
+    float:right;
+}
+
+.eateryRating{
+    font-size:25px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.eateryRec{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    color:#ffffff;
+}
